@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGHelper.Web", "RPGHelper.Web\RPGHelper.Web.csproj", "{605C7A3E-E77F-449C-AF92-A132911D3AB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{605C7A3E-E77F-449C-AF92-A132911D3AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605C7A3E-E77F-449C-AF92-A132911D3AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605C7A3E-E77F-449C-AF92-A132911D3AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605C7A3E-E77F-449C-AF92-A132911D3AB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75D8E92A-4142-4584-9506-A51063C60DB2}
+	EndGlobalSection
+EndGlobal
