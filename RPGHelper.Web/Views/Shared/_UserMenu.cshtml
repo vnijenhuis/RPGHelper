@@ -1,0 +1,32 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using RPGHelper.Models.Users
+
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+@{
+    var reefUser = UserManager.GetUserAsync(User).Result;
+}
+
+<ul class="nav navbar-nav navbar-left">
+    @if (SignInManager.IsSignedIn(User) && await UserManager.IsInRoleAsync(reefUser, "SystemOwner"))
+    {
+        <li>
+            <a asp-area="Admin" asp-controller="Home" asp-action="Index">Dashboard</a>
+        </li>
+        <li>
+            <a asp-area="Admin" asp-controller="User" asp-action="Index">Users</a>
+        </li>
+    }
+    else if (SignInManager.IsSignedIn(User) && await UserManager.IsInRoleAsync(reefUser, "Administrator"))
+    {
+        <li>
+            <a asp-area="Admin" asp-controller="Home" asp-action="Index">Dashboard</a>
+        </li>
+    }
+    else if (SignInManager.IsSignedIn(User) && await UserManager.IsInRoleAsync(reefUser, "DefaultUser"))
+    {
+        <li>
+            <a asp-area="Member" asp-controller="Home" asp-action="Index">Dashboard</a>
+        </li>
+    }
+</ul>

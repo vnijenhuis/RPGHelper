@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGHelper.Web", "RPGHelper.Web\RPGHelper.Web.csproj", "{605C7A3E-E77F-449C-AF92-A132911D3AB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPGHelper.Web", "RPGHelper.Web\RPGHelper.Web.csproj", "{605C7A3E-E77F-449C-AF92-A132911D3AB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGHelper.Models", "RPGHelper.Models\RPGHelper.Models.csproj", "{F9E6248E-2746-4AD0-B52F-EEFF99AC81B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGHelper.Core", "RPGHelper.Core\RPGHelper.Core.csproj", "{5A9732CD-1AAB-4912-94DE-505A67D6BF3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGHelper.Services", "RPGHelper.Services\RPGHelper.Services.csproj", "{8C227938-6B23-4CB6-A1AD-FD48F68A1634}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{605C7A3E-E77F-449C-AF92-A132911D3AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{605C7A3E-E77F-449C-AF92-A132911D3AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{605C7A3E-E77F-449C-AF92-A132911D3AB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9E6248E-2746-4AD0-B52F-EEFF99AC81B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9E6248E-2746-4AD0-B52F-EEFF99AC81B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9E6248E-2746-4AD0-B52F-EEFF99AC81B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9E6248E-2746-4AD0-B52F-EEFF99AC81B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A9732CD-1AAB-4912-94DE-505A67D6BF3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9732CD-1AAB-4912-94DE-505A67D6BF3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A9732CD-1AAB-4912-94DE-505A67D6BF3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A9732CD-1AAB-4912-94DE-505A67D6BF3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C227938-6B23-4CB6-A1AD-FD48F68A1634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C227938-6B23-4CB6-A1AD-FD48F68A1634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C227938-6B23-4CB6-A1AD-FD48F68A1634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C227938-6B23-4CB6-A1AD-FD48F68A1634}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
